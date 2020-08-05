@@ -1,0 +1,157 @@
+.AEF {
+    background-color: rgb(46,46,56);
+    height: 30px;
+    border-top: 5px solid rgb(101,199,98);
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .inBLOCK {
+    background-color: rgb(46,46,56); 
+    height: 30px;
+    border-top: 5px solid rgb(255,231,5);
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .BBVA {
+    background-color: rgb(46,46,56); 
+    height: 30px;
+    border-top: 5px solid #14549C;
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .Santander {
+    background-color: rgb(46,46,56);
+    height: 30px;
+    border-top: 5px solid #ec0000;
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .Bankia {
+    background-color: rgb(46,46,56);
+    height: 30px;
+    border-top: 5px solid #B9C800;
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .AEAT {
+    background-color: rgb(46,46,56);
+    height: 30px;
+    border-top: 5px solid #e4cdb1;
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .Caixabank {
+    background-color: rgb(46,46,56); 
+    height: 30px;
+    border-top: 5px solid #299;
+    text-align: center;
+    text-align: middle;
+  }
+  
+  .Sabadell {
+    background-color: rgb(46,46,56);
+    height: 30px;
+    border-top: 5px solid #0099cc;
+    text-align: center;
+    text-align: middle;
+  }
+
+  .menuItemsLeftDashboard {
+    margin-left: 25px;
+    margin-top: -13px;
+    float: left;
+    cursor: pointer;
+  }
+
+  .selectedItem{
+    color: white;
+    font-family: inblock_headline;
+    font-style: bold;
+    font-size: 1rem;
+    text-decoration:none;
+    display: inline-block;
+    margin-top: -5px;
+  }
+  
+  .selectedItem:after {
+    content: '';
+    display: block;
+    position: relative;
+    left: 40%;
+    margin-top: -15px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #FFFFFF;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+  
+  .nonSelectedItem{
+    color: white;
+    font-family: inblock_text;
+    font-size: 0.8rem;
+    text-decoration:none;
+    display: inline-block;
+  }
+
+  .buttonLanguage {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 3px;
+  }
+  
+  .buttonLanguage:focus {outline-color:#2e2e38 !important;}
+
+  .icon_language {
+    width: 20px;
+  }
+
+  .menuItemsRight{
+    float: right;
+    margin-right: 50px;
+    margin-top: 3px;
+  }
+
+  .menuItemsRight2{
+    float: right;
+    margin-right: 0.5vw;
+    margin-top: 4px;
+  }
+
+.menuItemsRight3{
+  float: right;
+  margin-right: 20px;
+  margin-top: 0.5vh;
+}
+
+.user{
+  color: white;
+  font-size: 0.8rem;
+  font-family: inblock_headline;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: 1px;
+  margin-right: 22px;
+}
+
+.logout{
+  float: right;
+  /* margin-right: 35px; */
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.icon_logout {
+  width: 16px;
+}

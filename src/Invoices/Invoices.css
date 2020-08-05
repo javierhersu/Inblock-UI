@@ -1,0 +1,10 @@
+.invoiceContainer {
+    height: 100%;
+    background-color: white;
+    background-image: url("./Filter/images/santander_ui_background.png");
+    background-repeat: no-repeat;
+    background-position: 100% -100px;
+    background-size: 70% 100%;
+    overflow: hidden;
+    display: block;
+}

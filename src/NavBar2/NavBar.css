@@ -1,0 +1,109 @@
+.NavBar {
+    width: 100%;
+    height: 60px;
+    background-color: #AED581;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .link-container {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .row{
+    display: grid;
+    background-color: rgba(42,41,48);
+    grid-template-columns: 30fr 1fr 1fr;
+    grid-template-rows: 3.5vh 3.5vh;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .logoContainer {
+    border-right: 1px solid #b6b5bc;
+    width: 81px;
+    height: 35px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    left: 10px;
+    height: auto;
+    width: 35px;
+    position: relative;
+    top: 1px;
+  }
+
+  .title {
+    margin-top: 21px;
+    height: 25px;
+    float: left;
+    margin-left: -2170px;
+  }
+
+  .blk-tit {
+    color: rgb(182,181,188);
+    position: relative;
+    /* float: left; */
+    right: 10px;
+  }
+
+  .logoUser {
+    float: left;
+  }
+  
+  .logoSantander {
+    left: -20px;
+    height: auto;
+    width: 145px;
+    position: relative;
+    top: 11px;
+  }
+
+  .logoBBVA {
+    left: -20px;
+    height: auto;
+    width: 115px;
+    position: relative;
+    top: 11px;
+  }
+
+  .logoCaixabank {
+    left: -20px;
+    height: auto;
+    width: 140px;
+    position: relative;
+    top: 11px;
+  }
+
+  .logoBankia {
+    left: -20px;
+    height: auto;
+    width: 115px;
+    position: relative;
+    top: 11px;
+  }
+
+  .logoSabadell {
+    left: -20px;
+    height: auto;
+    width: 115px;
+    position: relative;
+    top: 11px;
+  }

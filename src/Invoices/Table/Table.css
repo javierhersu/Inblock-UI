@@ -1,0 +1,33 @@
+.tableContainer {
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #invoices {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #invoices td, #invoices th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #invoices tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #invoices tr:hover {background-color: #ddd;}
+  
+  #invoices th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }

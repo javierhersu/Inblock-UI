@@ -1,0 +1,209 @@
+.filterContainer {
+    width: 100%;
+}
+
+#actionButton {
+    width: 10vw;
+    padding: 0.5vh;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(121,121,145);
+    border: 2vh;
+    float: left;
+    cursor: pointer;
+    margin-right: 2vh;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+  
+  /* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(2, 48, 92);
+      font-style: normal;
+    font-size: 11px;
+    color: rgb(180,199,231);
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 30%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+  
+  /* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 0.7;
+}
+
+.buttons {
+    padding: 10px;
+}
+
+.filter {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.columnaButton{
+    float: right;
+    margin-right: 7vw;
+}
+
+.imagenLoading {
+    position: relative;
+    width: 3vh;
+    left: -6px;
+    cursor: pointer;
+    float: left;
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: -3vw;
+    overflow: hidden;
+    float: right;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#notificationButton {
+    width: 30px;
+    padding: 0.5vh;
+    font-family: inblock_headline;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: white;
+    background-color: rgb(222,236,241);
+    border: 2vh;
+    float: right;
+    cursor: pointer;
+    margin-right: -7vw;
+    z-index: 1;
+  }
+  
+  #notificationButton2 {
+    width: 30px;
+    padding: 0.5vh;
+    font-family: inblock_headline;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: white;
+    background-color: rgb(26,179,188);
+    border: 2vh;
+    float: right;
+    cursor: pointer;
+    margin-right: -7vw;
+    z-index: 1;
+    overflow:visible;
+  }
+
+
+.headerLabel {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #555;
+}
+
+.frm_input{
+    margin-top: 1rem;
+    float: left;
+    margin-left: 1rem;
+    border-radius: 0;
+    border: 0;
+    color: rgb(68,84,106);
+    font-size: 1rem;
+    border-bottom: 1px solid rgb(132, 151, 176);
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='15' height='15' viewBox='0 0 24 24'><path fill='%797979' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-color: rgba(0,0,0,0);
+    width: 12vw;
+    cursor: pointer;
+}
+
+
+.container{
+    height: 120px;
+    width: 100%;
+  }
+  
+  .filtersContainer{
+    width: 30vw;
+  }
+  
+  .filtersInputsContainer{
+    float: left;
+    margin-left: 1rem;
+  }  
+
+
+  .buttonFilter {
+    margin-top: 1vh;
+    width: 7vw;
+    padding: 0.3vh;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: 2vh;
+    cursor: pointer;
+    margin-left: 2vh;
+    transaction: 0.3s;
+  }
+  .buttonFilter:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .buttonReset {
+    margin-top: 1vh;
+    width: 7vw;
+    padding: 0.3vh;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    color: rgb(132,151,176);
+    background-color: rgb(230,228,237);
+    border: 2vh;
+    cursor: pointer;
+    margin-left: 2vh;
+  }
+  .buttonReset:hover {
+    background-color: rgba(222,237,241,0.5);
+  }
+  
+  .buttonsContainer{
+    display: grid;
+  }

@@ -1,0 +1,115 @@
+:host{
+    height: 100%;
+    background-color: white;
+    background-image: url("../images/background_inblock.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.loginContainer {
+    height: 100%;
+    background-color: white;
+    background-image: url("./background_inblock.png");
+    background-repeat: no-repeat;
+    background-position: 100% -100px;
+    background-size: 70% 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.image-left {
+    float: left;
+    position: relative;
+}
+
+.containerLogin{
+    height: 100%;
+    width: 90%;
+    position: relative;
+}
+
+.containerLoginBoxes{
+    text-align: left;
+    margin-top: 14%;
+    margin-left: 50%;
+}
+
+.boxUser{
+    border: 1px solid black;
+    font-size: 1rem;
+    color: rgb(166,166,166);
+    width: 90%;
+    margin-top: 2vh;
+    height: 2.4em;
+    /* background: url(../../assets/img/account.png) no-repeat scroll 2px 2px; */
+    background-size: 25px 25px;
+    background-position: 98%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    background-image:url(account.png);   
+    background-repeat:no-repeat; 
+}
+
+input:placeholder-shown{
+    padding-left: 10px;
+}
+
+.boxPassword{
+    border: 1px solid black;
+    font-size: 1rem;
+    color: rgb(166,166,166);
+    width: 90%;
+    margin-top: 2vh;
+    height: 2.4em;
+    /* background: url(../../assets/img/lock.png) no-repeat scroll 2px 2px; */
+    background-size: 25px 25px;
+    background-position: 98%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    background-image:url(lock.png);   
+    background-repeat:no-repeat;   
+}
+
+.error {
+    width: 59%;
+    background-color: rgba(235, 125, 95, 0.5);
+}
+
+.remPass {
+    color: black;
+    /* float: right; */
+    margin-left: 445px;
+}
+
+.loginButton{
+    background-color: black;
+    font-family: inblock_text;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    width: 92%;
+    margin-top: 2vh;
+    height: 2.4em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .loginButton:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .imageButton {
+        /* Just a little styling to make it pretty */
+    border:1px solid rgba(0,0,0,0);
+    background:rgba(0,0,0,0);
+    color:white;
+    position: absolute;
+    margin-top: 17px;
+    height: 37px;
+    right: 60px;
+    cursor: pointer;
+    width: 50px;
+  }
